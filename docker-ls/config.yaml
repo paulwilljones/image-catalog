@@ -1,0 +1,6 @@
+templates:
+  taglist: |
+    {{ html .Repository }}
+    {{- range .Tags }}
+      {{ .TagName }}: {{ .Digest }}
+    {{- end }}

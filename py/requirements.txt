@@ -1,0 +1,2 @@
+google-cloud-asset==2.2.0
+
